@@ -1,4 +1,15 @@
-// server.js
+/* server.js
+Created the collaborative-editor-backend directory.
+
+Run npm init -y inside it.
+
+Installed ws and y-websocket using npm install ws y-websocket.
+
+Created the server.js file inside that directory with the code I provided.
+
+*/
+
+
 const WebSocket = require('ws');
 const Y = require('yjs'); // Import yjs
 // Removed: const { readSync, writeSync } = require('y-websocket/bin/utils'); // This line caused the error
